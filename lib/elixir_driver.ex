@@ -42,7 +42,7 @@ defmodule ElixirDriver do
     |> pack
   end
 
-  def process %{"action" => "ParseAST", "language" => "elixir", "content" => content} do
+  def process %{"content" => content} do
     content
   end
 
